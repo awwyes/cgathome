@@ -4,9 +4,9 @@ import { ReactNode } from 'react';
   
   const Logo = (props: any) => {
     return (
-        <Box boxSize={'xs'} height={'none'}>
-            <Image src={'../cgathome.webp'} />
-        </Box>
+      <Box boxSize={'xs'} height={'none'}>
+        <Image src={'../cgathome.webp'} />
+      </Box>
     );
   };
   
@@ -40,8 +40,6 @@ import { ReactNode } from 'react';
       </chakra.button>
     );
   };
-
-  
   
   export default function Footer() {
     const year = new Date();
@@ -59,7 +57,7 @@ import { ReactNode } from 'react';
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Logo />
-          <Text>© {year.getFullYear()} Caregivers at Home. All rights reserved
+          <Text>&copy; {year.getFullYear()} Caregivers at Home. All rights reserved
           </Text>
           <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Facebook'} href={'#'}>
