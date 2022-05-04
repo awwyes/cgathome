@@ -60,10 +60,10 @@ import { ReactNode } from 'react';
           <Text>&copy; {year.getFullYear()} Caregivers at Home. All rights reserved
           </Text>
           <Stack direction={'row'} spacing={6}>
-          <SocialButton label={'Facebook'} href={'#'}>
+          <SocialButton label={'Facebook'} href={'https://www.facebook.com/caregiversathometn'}>
               <FaFacebook />
             </SocialButton>
-            <SocialButton label={'Twitter'} href={'#'}>
+            <SocialButton label={'Twitter'} href={'https://twitter.com/CaregiversAt'}>
               <FaTwitter />
             </SocialButton>
             <SocialButton label={'Instagram'} href={'#'}>
