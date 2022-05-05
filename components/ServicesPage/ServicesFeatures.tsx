@@ -28,6 +28,7 @@ export default function ServicesFeatures() {
             width={'full'}
             height={'full'}
             src={'/../hands.webp'}
+            alt={'Services Image'}
           />
           </Box>
         <SimpleGrid

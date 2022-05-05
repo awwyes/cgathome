@@ -5,7 +5,7 @@ import { ReactNode } from 'react';
   const Logo = (props: any) => {
     return (
       <Box boxSize={'xs'} height={'none'}>
-        <Image src={'../cgathome.webp'} />
+        <Image alt='CGAH logo' src={'../cgathome.webp'} />
       </Box>
     );
   };

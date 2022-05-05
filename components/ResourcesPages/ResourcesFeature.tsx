@@ -26,6 +26,7 @@ export default function ResourcesFeature() {
           <Image
             width={'full'}
             height={'full'}
+            alt='Resources Image'
             src={'/../resources.jpg'}
           />
           </Box>

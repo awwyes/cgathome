@@ -10,7 +10,7 @@ const Feature = ({ title, image, href }: FeatureProps) => {
     return (
       <Stack>
         <Text fontWeight={600}>{title}</Text>
-        <Image src={image} width={'230px'} height={'60px'} />
+        <Image src={image} alt={'Logos'} width={'230px'} height={'60px'} />
         <Link color={'black'} href={href}>{href}</Link>
       </Stack>
     );
