@@ -178,7 +178,7 @@ import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from '@ch
         <Flex
           py={2}
           as={Link}
-          href={href ?? '#'}
+          href={href ?? '/'}
           justify={'space-between'}
           align={'center'}
           _hover={{
